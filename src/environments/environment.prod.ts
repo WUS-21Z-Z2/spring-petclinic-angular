@@ -20,7 +20,9 @@
  * @author Vitaliy Fedoriv
  */
 
+declare var restApiUrl: string;
+
 export const environment = {
   production: true,
-  REST_API_URL: 'http://localhost:9966/petclinic/api/'
+  REST_API_URL: restApiUrl
 };

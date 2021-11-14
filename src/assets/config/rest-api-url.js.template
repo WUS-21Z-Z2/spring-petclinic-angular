@@ -1,0 +1,6 @@
+var restApiUrl = '';
+(function() {
+    var restApiHostname = '$REST_API_HOSTNAME' || window.location.hostname;
+    var restApiPort = '$REST_API_PORT' || '9966';
+    restApiUrl = 'http://' + restApiHostname + ':' + restApiPort + '/petclinic/api/';
+})();
