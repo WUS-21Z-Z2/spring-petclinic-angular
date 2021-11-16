@@ -1,1 +1,10 @@
-node_modules
+*
+!src
+!.npmrc
+!40-envsubst-rest-api-url.sh
+!angular.json
+!karma.conf.js
+!package.json
+!package-lock.json
+!tsconfig.json
+!tslint.json
